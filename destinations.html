@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinations - Travel Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #f3e5f5, #fce4ec);
+      color: #3c2a4d;
+    }
+
+    .navbar {
+      background: linear-gradient(to right, #ba68c8, #f06292);
+      padding: 15px 0;
+      box-shadow: 0 4px 12px rgba(186, 104, 200, 0.3);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.8em;
+      color: #fff0f7 !important;
+    }
+
+    .nav-link {
+      color: #fff0f7 !important;
+      margin: 0 12px;
+      transition: all 0.3s ease-in-out;
+      font-weight: 500;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: #ffe4ec !important;
+      text-decoration: underline;
+    }
+
+    .card {
+      box-shadow: 0 4px 12px rgba(186, 104, 200, 0.2);
+      border: none;
+    }
+
+    .card-title {
+      color: #8e24aa;
+      font-weight: bold;
+    }
+
+    .card-text {
+      color: #5e355d;
+    }
+
+    h1 {
+      color: #6a1b9a;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      padding-bottom: 40px;
+    }
+
+     .call-to-action {
+  background: linear-gradient(to right, #f8bbd0, #f3e5f5);
+  padding: 50px 20px;
+}
+
+.call-to-action h3 {
+  color: #6a1b9a;
+}
+
+.btn-custom {
+  background-color: #ab47bc;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #9c27b0;
+}
+
+
+    @media (max-width: 768px) {
+      .nav-link {
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="home.html"><i class="bi bi-globe2"></i>Travel Agency</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html"><i class="bi bi-house-door-fill"></i> Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-info-circle-fill"></i> About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="destinations.html"><i class="bi bi-geo-alt-fill"></i> Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="packages.html"><i class="bi bi-box2-heart-fill"></i> Packages</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html"><i class="bi bi-question-circle-fill"></i> FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h1 class="text-center">Our Top Travel Destinations</h1>
+
+  <!-- First Row -->
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://t4.ftcdn.net/jpg/02/96/15/35/360_F_296153501_B34baBHDkFXbl5RmzxpiOumF4LHGCvAE.jpg" class="card-img-top" alt="Paris">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-easel-fill"></i> Paris, France</h5>
+          <p class="card-text">Experience romance and elegance in the city of lights.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos748237730xl-1733881314829.jpg" class="card-img-top" alt="Bali">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-tree-fill"></i> Bali, Indonesia</h5>
+          <p class="card-text">Tropical beaches and peaceful temples await your visit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://media.istockphoto.com/id/521714583/photo/new-york-city-midtown-with-empire-state-building-at-sunset.jpg?s=612x612&w=0&k=20&c=paLoZfZnaZSfaBK_DxLls_Ii0hD3r2PBKSlS6M1QxVU=" class="card-img-top" alt="New York">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-buildings"></i> New York, USA</h5>
+          <p class="card-text">The city that never sleeps – full of culture and attractions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Row -->
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://i0.wp.com/www.touristjapan.com/wp-content/uploads/2023/08/shutterstock_667925704-2.jpg?resize=1024%2C684&ssl=1" class="card-img-top" alt="Tokyo">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-globe-asia-australia"></i> Tokyo, Japan</h5>
+          <p class="card-text">A perfect blend of tradition and futuristic charm.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://media.istockphoto.com/id/1717026172/photo/piazza-navona-in-rome-italy.jpg?s=612x612&w=0&k=20&c=EWMGgECW-4QtK6KmRAa4AkTnPe673n_S5TjydpAtzTk=" class="card-img-top" alt="Rome">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-bank2"></i> Rome, Italy</h5>
+          <p class="card-text">Explore ancient ruins and Italian cuisine in the Eternal City.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://media.istockphoto.com/photos/camps-bay-cape-town-vibrant-sunset-twilight-south-africa-picture-id1202000618?b=1&k=20&m=1202000618&s=170667a&w=0&h=yvouA97zRQhBT70V642n5BYU2_C8giDwnFCjhtaMc2s=" class="card-img-top" alt="Cape Town">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-binoculars-fill"></i> Cape Town, South Africa</h5>
+          <p class="card-text">Breathtaking scenery and exciting wildlife experiences.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Row - More Destinations -->
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1577545161018-1F9Z9ZZQG9JO2O4WCWQX/keith-zhu-qaNcz43MeY8-unsplash+%281%29.jpg?format=1500w" class="card-img-top" alt="Sydney">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-sunrise-fill"></i> Sydney, Australia</h5>
+          <p class="card-text">Marvel at the Opera House, stunning beaches, and lively culture.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKS5Jx3PuzH9FjPzGas16Lfp_NikX6_pj4g&s" class="card-img-top" alt="Santorini">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-house-heart-fill"></i> Santorini, Greece</h5>
+          <p class="card-text">Famous for whitewashed houses and sunsets over the Aegean Sea.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://www.abouther.com/sites/default/files/2019/11/04/main_-_park_hyatt_dubai.jpg" class="card-img-top" alt="Dubai">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-building-fill-down"></i> Dubai, UAE</h5>
+          <p class="card-text">Experience futuristic architecture, luxury shopping, and desert safaris.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fourth Row -->
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://i.pinimg.com/originals/b0/89/cd/b089cd29f959a7533b1a3a55eb8c6a7e.jpg" class="card-img-top" alt="Machu Picchu">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-mountains"></i> Machu Picchu, Peru</h5>
+          <p class="card-text">An iconic Incan city nestled high in the Andes mountains.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://wallpaperaccess.com/full/1609797.jpg" height="285" class="card-img-top" alt="Banff">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-water"></i> Banff, Canada</h5>
+          <p class="card-text">Stunning turquoise lakes, snow-capped peaks, and outdoor adventures.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg" class="card-img-top" alt="Petra">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-arch"></i> Petra, Jordan</h5>
+          <p class="card-text">Explore the ancient rose-red city carved into rock cliffs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ <!-- Call to Action -->
+  <div class="call-to-action text-center mt-5">
+    <h3 class="mb-3"><i class="bi bi-send-fill"></i>Ready to travel with us? </h3>
+    <a href="packages.html" class="btn btn-lg btn-custom"> 
+    View Travel Packages <i class="bi bi-arrow-right-circle"></i>
+    </a>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
