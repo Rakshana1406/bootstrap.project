@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Travel Agency</title>
+
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fce4ec, #ede7f6);
+      color: #3c2a4d;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background: linear-gradient(to right, #ba68c8, #f06292);
+      padding: 15px 0;
+      box-shadow: 0 4px 12px rgba(186, 104, 200, 0.3);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.8em;
+      color: #fff0f7 !important;
+    }
+
+    .nav-link {
+      color: #fff0f7 !important;
+      margin: 0 12px;
+      transition: all 0.3s ease-in-out;
+      font-weight: 500;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: #ffe4ec !important;
+      text-decoration: underline;
+    }
+
+    h1, h3 {
+      color: #8e24aa;
+    }
+
+    .team-member img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      border: 4px solid #f8bbd0;
+      box-shadow: 0 4px 10px rgba(240, 98, 146, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .team-member img:hover {
+      transform: scale(1.05);
+    }
+
+    .team-member h5 {
+      color: #ad1457;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+
+    .team-member p {
+      color: #c2185b;
+      font-size: 14px;
+    }
+
+    .list-group-item {
+      background-color: #fce4ec;
+      border: none;
+      color: #6a1b9a;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    .list-group-item:hover {
+      background-color: #f8bbd0;
+    }
+
+    .card {
+      border: none;
+      border-radius: 12px;
+      background-color: #f3e5f5;
+      box-shadow: 0 4px 12px rgba(186, 104, 200, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card i {
+      font-size: 2rem;
+      color: #8e24aa;
+    }
+
+    .container {
+      padding-bottom: 40px;
+    }
+
+    .call-to-action {
+  background: linear-gradient(to right, #f8bbd0, #f3e5f5);
+  padding: 50px 20px;
+}
+
+.call-to-action h3 {
+  color: #6a1b9a;
+}
+
+.btn-custom {
+  background-color: #ab47bc;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #9c27b0;
+}
+
+
+    @media (max-width: 768px) {
+      .nav-link {
+        margin: 5px 0;
+      }
+      .team-member {
+        margin-bottom: 20px;
+      }
+
+    
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="home.html"><i class="bi bi-globe2"></i> Travel Agency</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html"><i class="bi bi-house-door-fill"></i> Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html"><i class="bi bi-info-circle-fill"></i> About</a></li>
+        <li class="nav-item"><a class="nav-link" href="destinations.html"><i class="bi bi-geo-alt-fill"></i> Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="packages.html"><i class="bi bi-box2-heart-fill"></i> Packages</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html"><i class="bi bi-question-circle-fill"></i> FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope-fill"></i> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Section -->
+<div class="container mt-5">
+  <h1 class="text-center mb-4"><i class="bi bi-people-fill"></i> About Us</h1>
+  <p class="text-center mb-5">
+    We are a passionate team of travel enthusiasts with over 15 years of experience in creating unforgettable journeys.
+    Our mission is to help you explore the world with comfort, safety, and excitement.
+  </p>
+
+  <!-- Team Section -->
+  <div class="row text-center mb-5">
+    <div class="col-md-4 team-member">
+      <img src="https://t4.ftcdn.net/jpg/11/13/07/85/360_F_1113078594_EkJJWsRZTMmWd8V7JylALnzoKkFFS77b.jpg" alt="Anu">
+      <h5>Makila</h5>
+      <p>Founder & CEO</p>
+    </div>
+    <div class="col-md-4 team-member">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFAZs6fUVm7EYTjAfQfs1wv1yEHRHDv0aM_-PT9CXCzQhjXttU7j6QhYmVPH7LB19BzQ&usqp=CAU" alt="James Lee">
+      <h5>Kanish</h5>
+      <p>Travel Consultant</p>
+    </div>
+    <div class="col-md-4 team-member">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIWd4FD2Y0BkEx1JNHV3Gn57IVcddB10qwcw&s" alt="Sophia ">
+      <h5>Rakshana </h5>
+      <p>Tour Guide</p>
+    </div>
+  </div>
+
+  <!-- Timeline Section -->
+  <h3 class="text-center mb-4"><i class="bi bi-calendar-heart-fill"></i> Our Journey</h3>
+  <ul class="list-group list-group-flush mb-5">
+    <li class="list-group-item">2008 - Travel Agency founded by Anna Smith.</li>
+    <li class="list-group-item">2012 - Expanded to international destinations.</li>
+    <li class="list-group-item">2016 - Crossed 10,000 happy customers milestone.</li>
+    <li class="list-group-item">2020 - Launched digital booking platform.</li>
+    <li class="list-group-item">2024 - Introduced luxury & adventure package lines.</li>
+  </ul>
+
+  <!-- What We Offer -->
+  <h3 class="text-center mb-4"><i class="bi bi-gem"></i> What We Offer</h3>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card p-4 text-center">
+        <i class="bi bi-airplane-engines-fill"></i>
+        <h5 class="mt-3">Custom Trips</h5>
+        <p>Plan personalized tours that match your dreams and schedule.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4 text-center">
+        <i class="bi bi-stars"></i>
+        <h5 class="mt-3">Luxury Packages</h5>
+        <p>Enjoy elite experiences and 5-star accommodations worldwide.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4 text-center">
+        <i class="bi bi-backpack4-fill"></i>
+        <h5 class="mt-3">Adventure Tours</h5>
+        <p>Explore the wild side of nature with safe, guided activities.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ <!-- Call to Action -->
+  <div class="call-to-action text-center mt-5">
+    <h3 class="mb-3"><i class="bi bi-send-fill"></i> Inspired to travel with us?</h3>
+    <a href="destinations.html" class="btn btn-lg btn-custom">
+    View Destinations <i class="bi bi-arrow-right-circle"></i>
+    </a>
+  </div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
